@@ -4911,6 +4911,7 @@
 #     </div>
 # """, unsafe_allow_html=True)
 
+import subprocess; subprocess.check_call(["python", "-m", "pip", "install", "scikit-learn"]); import sklearn
 
 import streamlit as st
 import pandas as pd
